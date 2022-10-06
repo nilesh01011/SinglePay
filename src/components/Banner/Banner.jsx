@@ -4,7 +4,7 @@ import { AiOutlineSearch } from 'react-icons/ai';
 
 function Banner() {
   return (
-    <div id='#' className='max-w-[1640px] mx-auto lg:px-10 sm:px-6 px-2'>
+    <div id='home' className='max-w-[1640px] mx-auto pt-14 pb-4 lg:px-10 sm:px-6 px-2 snap-start'>
       <div className='flex md:justify-between items-center md:h-[600px] h-[450px]'>
         {/* left sides */}
         <div className='xl:w-1/2 lg:w-[550px] sm:w-7/12'>

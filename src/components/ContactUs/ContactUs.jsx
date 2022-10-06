@@ -3,8 +3,8 @@ import React from 'react';
 function ContactUs() {
   return (
     <div
-      id='contactus'
-      className='flex lg:flex-row flex-col justify-between mt-20 lg:w-10/12 md:w-11/12 w-full mx-auto gap-10 pb-16'
+      id='contact'
+      className='flex lg:flex-row flex-col justify-between mt-20 lg:w-10/12 md:w-11/12 w-full mx-auto gap-10 pb-16 snap-start'
     >
       {/* left side */}
       <div className='w-auto flex flex-col md:items-start items-center md:text-left text-center'>

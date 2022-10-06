@@ -5,8 +5,9 @@ import './ServicePage.scss';
 
 function ServicePage() {
   const [service, setService] = useState(serviceApi);
+  console.log(setService);
   return (
-    <div id='services' className='max-w-[1640px] mx-auto mb-10'>
+    <div id='services' className='max-w-[1640px] mx-auto mb-10 snap-start'>
       <h1 className='sm:text-3xl text-2xl mb-7 text-center font-medium'>
         How to send money
       </h1>

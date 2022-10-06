@@ -4,9 +4,10 @@ import './AboutUs.scss';
 
 function AboutUs() {
   const [useApp, setUseApp] = useState(howToUseApp);
+  console.log(setUseApp)
   return (
     <>
-      <div id='aboutus' className='md:flex justify-between mb-10'>
+      <div id='aboutus' className='md:flex justify-between mb-10 snap-start'>
         {/* left Sides */}
         <div className='flex flex-col items-center justify-center md:w-1/2 md:my-0 my-10'>
           <img

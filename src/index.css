@@ -1,6 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* * {
+  scroll-snap-align: center;
+  -webkit-scroll-snap-align: center;
+} */
+
 body {
   background: #f1f5fd;
   font-family: 'Ubuntu', sans-serif;

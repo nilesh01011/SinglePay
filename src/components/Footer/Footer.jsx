@@ -1,6 +1,9 @@
 import React from 'react';
 import './Footer.scss';
-import { FcHome, FcServices, FcAbout, FcBusinessContact } from 'react-icons/fc';
+import { HiHome } from "react-icons/hi"
+import {MdOutlineMiscellaneousServices,MdContactPage} from "react-icons/md"
+import {BsClipboardData} from "react-icons/bs"
+import { Link } from 'react-scroll';
 
 function Footer() {
   return (
@@ -23,27 +26,27 @@ function Footer() {
           <h2 className='text-xl font-medium mb-6'>Links</h2>
           <ul className='text-gray-400'>
             <li className='mb-3'>
-              <a href='/#' className='flex align-center gap-2'>
-                <FcHome size={20} /> Home
-              </a>
+              <Link as="button" to="home" smooth className='cursor-pointer flex align-center gap-2'>
+                <HiHome size={20} /> Home
+              </Link>
             </li>
             <li className='mb-3'>
-              <a href='#services' className='flex align-center gap-2'>
-                <FcServices size={20} />
+              <Link as="button" to="services" smooth className='cursor-pointer flex align-center gap-2'>
+                <MdOutlineMiscellaneousServices size={20} />
                 Service
-              </a>
+              </Link>
             </li>
             <li className='mb-3'>
-              <a href='#aboutus' className='flex align-center gap-2'>
-                <FcAbout size={20} />
+              <Link as="button" to="aboutus" smooth className='cursor-pointer flex align-center gap-2'>
+                <BsClipboardData size={20} />
                 About
-              </a>
+              </Link>
             </li>
             <li className='mb-3'>
-              <a href='#contactus' className='flex align-center gap-2'>
-                <FcBusinessContact size={20} />
+              <Link as="button" to="contact" smooth className='cursor-pointer flex align-center gap-2'>
+                <MdContactPage size={20} />
                 Contact Us
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -72,6 +75,10 @@ function Footer() {
             <li className='flex items-baseline gap-2 text-gray-400'>
               <i className='icons fab fa-twitter fontawesome-style text-[#6f5de7] p-1 flex items-center justify-center bg-white'></i>{' '}
               Twitter
+            </li>
+            <li className='flex items-baseline gap-2 text-gray-400'>
+              <i className='icons fab fa-linkedin-in fontawesome-style text-[#6f5de7] p-1 flex items-center justify-center bg-white'></i>{' '}
+              Linkedin
             </li>
           </ul>
         </div>

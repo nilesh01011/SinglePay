@@ -4,9 +4,10 @@ import workapi from '../../API/WorkApi';
 
 function HowItWorks() {
   const [workData, setWorkData] = useState(workapi);
+  console.log(setWorkData);
 
   return (
-    <div className='lg:max-w-[1100px] w-auto mx-auto bg-white rounded-md py-8 px-7 shadow-lg mb-10 WorksBoxs relative -top-20'>
+    <div className='lg:max-w-[1100px] w-auto mx-auto bg-white rounded-lg py-8 px-7 shadow-lg mb-10 WorksBoxs relative -top-20'>
       <h1 className='sm:text-3xl text-2xl text-center font-medium'>
         How does it Work
       </h1>

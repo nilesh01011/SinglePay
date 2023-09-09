@@ -1,0 +1,23 @@
+.servicesCards {
+    &:hover {
+        --tw-bg-opacity: 1;
+        background-color: rgb(221 214 254 / var(--tw-bg-opacity));
+
+        & h2 {
+            --tw-text-opacity: 1;
+            color: rgb(111 93 231 / var(--tw-text-opacity));
+        }
+    }
+}
+
+@media screen and (max-width:576px) {
+    .servicesCards {
+        --tw-bg-opacity: 1;
+        background-color: rgb(221 214 254 / var(--tw-bg-opacity));
+
+        & h2 {
+            --tw-text-opacity: 1;
+            color: rgb(111 93 231 / var(--tw-text-opacity));
+        }
+    }
+}

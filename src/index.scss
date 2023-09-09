@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    scroll-behavior: smooth;
+    scroll-snap-align: start;
+}
+
+body {
+    background: #f1f5fd;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+main {
+    background: #fff;
+}
+
+.signUpBtn {
+    &:hover {
+        background: #7763f3;
+    }
+}

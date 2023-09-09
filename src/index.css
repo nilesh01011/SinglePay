@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #f1f5fd;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+main {
+  background: #fff;
+}
+/*# sourceMappingURL=index.css.map */
